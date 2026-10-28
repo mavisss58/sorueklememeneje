@@ -1,0 +1,314 @@
+[
+  {
+    "id": "book-1",
+    "code": "AE-BYJ",
+    "title": "Atölye Biyoloji Föyleri",
+    "author": "—",
+    "publisher": "Atölye Eğitim",
+    "subject": "AYT BİYOLOJİ"
+  },
+  {
+    "id": "book-2",
+    "code": "BYTK-AYT",
+    "title": "Biyotik AYT Biyoloji Soru Bankası",
+    "author": "—",
+    "publisher": "Biyotik",
+    "subject": "AYT BİYOLOJİ"
+  },
+  {
+    "id": "book-3",
+    "code": "PLM-11BYJ",
+    "title": "Palme 11. Sınıf Biyoloji Soru Bankası",
+    "author": "—",
+    "publisher": "Palme",
+    "subject": "AYT BİYOLOJİ"
+  },
+  {
+    "id": "book-4",
+    "code": "AE-FZK",
+    "title": "Atölye Fizik Föyleri",
+    "author": "—",
+    "publisher": "Atölye Eğitim",
+    "subject": "AYT FİZİK"
+  },
+  {
+    "id": "book-5",
+    "code": "AYD-11FZK",
+    "title": "Aydın 11. Sınıf Fizik Soru Bankası",
+    "author": "—",
+    "publisher": "Aydın",
+    "subject": "AYT FİZİK"
+  },
+  {
+    "id": "book-6",
+    "code": "CAP-12SET",
+    "title": "Çap 12. Sınıf Fizik Seti",
+    "author": "—",
+    "publisher": "Çap",
+    "subject": "AYT FİZİK"
+  },
+  {
+    "id": "book-7",
+    "code": "345-AYTFZK",
+    "title": "ÜçDörtBeş AYT Fizik Soru Bankası",
+    "author": "—",
+    "publisher": "ÜçDörtBeş",
+    "subject": "AYT FİZİK"
+  },
+  {
+    "id": "book-8",
+    "code": "AE-GEO",
+    "title": "Atölye Geometri Föyleri",
+    "author": "—",
+    "publisher": "Atölye Eğitim",
+    "subject": "AYT GEOMETRİ"
+  },
+  {
+    "id": "book-9",
+    "code": "AE-KMY",
+    "title": "Atölye Kimya Föyleri",
+    "author": "—",
+    "publisher": "Atölye Eğitim",
+    "subject": "AYT KİMYA"
+  },
+  {
+    "id": "book-10",
+    "code": "345-AYTKMY",
+    "title": "ÜçDörtBeş AYT Kimya Soru Bankası",
+    "author": "—",
+    "publisher": "ÜçDörtBeş",
+    "subject": "AYT KİMYA"
+  },
+  {
+    "id": "book-11",
+    "code": "3D-DFTR",
+    "title": "3D AYT Matematik Video Destekli Defter",
+    "author": "Özgür Balcı",
+    "publisher": "3D",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-12",
+    "code": "APT-ANLTK",
+    "title": "Apotemi Analitik Geometri Fasikülü",
+    "author": "—",
+    "publisher": "Apotemi",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-13",
+    "code": "APT-FONK",
+    "title": "Apotemi Fonksiyonlar Fasikülü",
+    "author": "—",
+    "publisher": "Apotemi",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-14",
+    "code": "APT-INTRL",
+    "title": "Apotemi İntegral Fasikülü",
+    "author": "—",
+    "publisher": "Apotemi",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-15",
+    "code": "APT-LMT",
+    "title": "Apotemi Limit-Süreklilik Fasikülü",
+    "author": "—",
+    "publisher": "Apotemi",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-16",
+    "code": "APT-PROB",
+    "title": "Apotemi Problemler Fasikülü",
+    "author": "—",
+    "publisher": "Apotemi",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-17",
+    "code": "APT-TRG",
+    "title": "Apotemi Trigonometri Fasikülü",
+    "author": "—",
+    "publisher": "Apotemi",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-18",
+    "code": "APT-TRV",
+    "title": "Apotemi Türev Fasikülü",
+    "author": "—",
+    "publisher": "Apotemi",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-19",
+    "code": "AE-MAT1",
+    "title": "Atölye Matematik-1 Föyleri",
+    "author": "—",
+    "publisher": "Atölye Eğitim",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-20",
+    "code": "AE-MAT2",
+    "title": "Atölye Matematik-2 Föyleri",
+    "author": "—",
+    "publisher": "Atölye Eğitim",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-21",
+    "code": "EB-AYT",
+    "title": "Eyüp B. AYT Matematik Soru Bankası",
+    "author": "—",
+    "publisher": "KR Akademi",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-22",
+    "code": "MY-MAT2",
+    "title": "MY MATEMATİK - 2",
+    "author": "Mustafa Yağcı",
+    "publisher": "MustafaYağcı",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-23",
+    "code": "MY-MAT3",
+    "title": "MY MATEMATİK - 3",
+    "author": "Mustafa Yağcı",
+    "publisher": "MustafaYağcı",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-24",
+    "code": "ORJ-AYTMAT",
+    "title": "Orijinal AYT Matematik Soru Bankası",
+    "author": "—",
+    "publisher": "Orijinal",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-25",
+    "code": "ORJ-LOG",
+    "title": "Orijinal Logaritma-Diziler Fasikülü",
+    "author": "—",
+    "publisher": "Orijinal",
+    "subject": "AYT MATEMATİK"
+  },
+  {
+    "id": "book-26",
+    "code": "AE-TR",
+    "title": "Atölye Türkçe Föyleri",
+    "author": "—",
+    "publisher": "Atölye Eğitim",
+    "subject": "AYT TÜRKÇE"
+  },
+  {
+    "id": "book-27",
+    "code": "ORJ-GEO",
+    "title": "Orijinal TYT-AYT Geometri Soru Bankası",
+    "author": "—",
+    "publisher": "Orijinal",
+    "subject": "GEOMETRİ (TYT-AYT)"
+  },
+  {
+    "id": "book-28",
+    "code": "BS-UCGN",
+    "title": "Yıldızlar Yarışıyor Üçgenler Denemesi",
+    "author": "—",
+    "publisher": "Bilgi Sarmal",
+    "subject": "GEOMETRİ (TYT-AYT)"
+  },
+  {
+    "id": "book-29",
+    "code": "345-PRG",
+    "title": "ÜçDörtBeş Paragraf Soru Bankası",
+    "author": "—",
+    "publisher": "ÜçDörtBeş",
+    "subject": "PARAGRAF"
+  },
+  {
+    "id": "book-30",
+    "code": "3D-PRGRF",
+    "title": "3D Paragraf Soru Bankası",
+    "author": "—",
+    "publisher": "3D",
+    "subject": "PARAGRAF (TYT-AYT)"
+  },
+  {
+    "id": "book-31",
+    "code": "345-PRGRF",
+    "title": "ÜçDörtBeş Sıfır Risk Paragraf Soru Bankası",
+    "author": "—",
+    "publisher": "ÜçDörtBeş",
+    "subject": "PARAGRAF (TYT-AYT)"
+  },
+  {
+    "id": "book-32",
+    "code": "345-TYTFZK",
+    "title": "ÜçDörtBeş TYT Fizik Soru Bankası",
+    "author": "—",
+    "publisher": "ÜçDörtBeş",
+    "subject": "TYT FİZİK"
+  },
+  {
+    "id": "book-33",
+    "code": "BS-TYTMATDEN",
+    "title": "Bilgi Sarmal 15'li Matematik Branş Denemesi",
+    "author": "—",
+    "publisher": "Bilgi Sarmal",
+    "subject": "TYT MATEMATİK"
+  },
+  {
+    "id": "book-34",
+    "code": "ORJ-TYTMAT",
+    "title": "Orijinal TYT Matematik Soru Bankası",
+    "author": "—",
+    "publisher": "Orijinal",
+    "subject": "TYT MATEMATİK"
+  },
+  {
+    "id": "book-35",
+    "code": "345-TYTMATDEN",
+    "title": "ÜçDörtBeş Matematik 10'lu Branş Denemesi",
+    "author": "—",
+    "publisher": "ÜçDörtBeş",
+    "subject": "TYT MATEMATİK"
+  },
+  {
+    "id": "book-36",
+    "code": "345-TYTMAT",
+    "title": "ÜçDörtBeş TYT Matematik Soru Bankası",
+    "author": "—",
+    "publisher": "ÜçDörtBeş",
+    "subject": "TYT MATEMATİK"
+  },
+  {
+    "id": "book-37",
+    "code": "BS-TYTTRDEN",
+    "title": "Bilgi Sarmal TYT Türkçe Branş Denemesi",
+    "author": "—",
+    "publisher": "Bilgi Sarmal",
+    "subject": "TYT TÜRKÇE"
+  },
+  {
+    "id": "book-38",
+    "code": "BS-TYTTR",
+    "title": "Bilgi Sarmal TYT Türkçe Soru Bankası",
+    "author": "—",
+    "publisher": "Bilgi Sarmal",
+    "subject": "TYT TÜRKÇE"
+  },
+  {
+    "id": "book-39",
+    "code": "LMT-TYTTR",
+    "title": "Limit TYT Türkçe Soru Bankası",
+    "author": "—",
+    "publisher": "Limit",
+    "subject": "TYT TÜRKÇE"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "appTitle": "Soru Ekleme",
+  "appSubtitle": "",
+  "captureTabTitle": "Soru Kaydet",
+  "archiveTabTitle": "Soru Arşivi",
+  "booksModalTitle": "Kitaplar",
+  "defaultSaveReason": "Yanlış-Boş",
+  "defaultNormalizeTurkish": true,
+  "accentColor": "indigo",
+  "showDirectoryBanner": true
+}

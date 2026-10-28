@@ -1,0 +1,73 @@
+================================================================
+              SORU EKLEME UYGULAMASI KULLANIM KILAVUZU
+================================================================
+
+Tarayici: Google Chrome veya Microsoft Edge (klasore kayit icin gerekli).
+
+----------------------------------------------------------------
+KURULUM (bir kerelik, 2 dakika)
+----------------------------------------------------------------
+1. Node.js (LTS surumu) kurun: https://nodejs.org
+2. BASLAT.bat dosyasina cift tiklayin (Mac/Linux: BASLAT.sh).
+3. Ilk acilista siyah pencerede "Soru okuyucu dosyalari indiriliyor"
+   yazar (~20 MB, internet gerekir). "Soru okuyucu hazir" yazisini
+   gorunce bitmistir. Bundan sonra internet GEREKMEZ.
+
+Yapay zeka anahtari GEREKMEZ.
+
+----------------------------------------------------------------
+SORU KONUSU NASIL BULUNUYOR?
+----------------------------------------------------------------
+Soru gorselini yapistirinca (Ctrl+V) uygulama gorseldeki yaziyi
+bilgisayarinizda okur ve en ozel konu basligini secer
+(ornegin "Elektrokimya" degil "Elektroliz"). Ders, konu ve soru
+numarasi otomatik dolar. "Ozet" kisminda hangi kelimelere gore
+karar verildigi ve guven yuzdesi yazar.
+
+Not: Matematik formulleri okunurken bozulabilir; bu yuzden bu tur
+sorularda sonuc daha az guvenilirdir. Yanlis olursa konuyu elle
+degistirebilirsiniz. Konu listesini veritabani/konular.json
+dosyasindan duzenleyebilirsiniz (her konunun anahtar kelimeleri
+orada yazar).
+
+Istege bagli: anahtar.ornek.env dosyasini anahtar.env olarak
+kaydedip Gemini/Claude anahtari eklerseniz, uygulama emin
+olamadigi sorularda yapay zekaya da sorar.
+
+----------------------------------------------------------------
+TABLET ILE ESLEME VE SENKRONIZASYON
+----------------------------------------------------------------
+1. Bilgisayarda uygulamayi BASLAT.bat ile acin.
+2. Ayarlar (disli) > "Tablet Esleme" > "Yeni tablet esle".
+3. Tabletten QR kodu okutun (veya ekrandaki adresi tarayiciya yazip
+   6 haneli kodu girin). Kod 5 dakika gecerli ve TEK KULLANIMLIKTIR.
+4. Tablet ve bilgisayar ayni Wi-Fi aginda olmalidir. Windows guvenlik
+   duvari sorarsa "Izin ver" deyin (yalniz ozel ag yeterli).
+5. Sorular ve kitaplar iki yonlu otomatik esitlenir (45 sn'de bir ve
+   her degisiklikten sonra). "Simdi esitle" ile elle de yapilabilir.
+
+Notlar:
+- Tablet uygulamayi bilgisayardan acar; bilgisayardaki BASLAT penceresi
+  acik olmalidir. Esitlenen veriler tabletin kendi tarayicisinda da durur.
+- Cihaz kaldirmak icin Ayarlar > Tablet Esleme > "Kaldir".
+- Esitleme merkezi: veritabani/senkron/ (silmeyin, yedeklemek yeterli).
+- Tabletten eklenen sorular bilgisayardaki kayit KLASORUNE otomatik
+  yazilmaz; arsivde gorunur, klasore aktarma bilgisayardaki uygulamadan yapilir.
+
+----------------------------------------------------------------
+KLASOR DUZENI
+----------------------------------------------------------------
+BASLAT.bat / BASLAT.sh -> Uygulamayi baslatir
+sunucu.js              -> Yerel sunucu, ilk acilista OCR kurulumu
+eslesme_sunucu.js, eslesme.js, qr.js -> Tablet esleme ve senkronizasyon
+shim.js, analiz.js     -> Soru okuyucu ve konu bulucu
+ocr/                   -> Metin okuma dosyalari (kendisi iner)
+veritabani/            -> Kitaplar, konu listesi (konular.json), ayarlar
+anahtar.env            -> (istege bagli) yapay zeka anahtari
+
+----------------------------------------------------------------
+SORUN GIDERME
+----------------------------------------------------------------
+- "OCR hazir degil" yaziyorsa: internete baglanip uygulamayi yeniden baslatin.
+- Konu hep yanlis cikiyorsa gorseli daha buyuk/net kesin; yalnizca soru metnini secin.
+- Port doluysa uygulama 5501, 5502... portlarini dener.

@@ -1,0 +1,42 @@
+/* Soru Ekleme — Tablet Eşleme sekmesi */
+.se-aktif button:not(.se-tab){border-bottom-color:transparent!important;color:#62729a!important;font-weight:600!important}
+.se-tab.se-on{border-bottom-color:#4f46e5!important;color:#0e1b36!important;font-weight:700}
+.dark .se-tab.se-on{color:#eaf0f9!important}
+.se-panel{display:flex;flex-direction:column;gap:14px;flex:1;overflow-y:auto;color:#0e1b36;font-size:13px}
+.se-panel p{margin:6px 0 0;line-height:1.55}
+.se-intro p{color:#46557c}
+.se-card{border:1px solid #dbe4f2;background:#f5f8fd;border-radius:14px;padding:14px}
+.se-warn{background:#fef3c7;border-color:#fcd34d;color:#78350f}
+.se-row{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.se-sm{font-size:12px;color:#62729a}
+.se-ok{color:#047857;font-weight:600}.se-err{color:#b91c1c;font-weight:600}
+.se-btn{background:#4f46e5;color:#fff;border:0;border-radius:10px;padding:10px 16px;font-weight:700;font-size:13px;cursor:pointer}
+.se-btn:disabled{opacity:.55;cursor:default}
+.se-btn-sm{padding:6px 10px;font-size:12px}
+.se-btn-ghost{background:transparent;color:#31406a;border:1px solid #bccade}
+.se-chk{display:flex;align-items:center;gap:6px;font-size:12px;color:#31406a;cursor:pointer}
+.se-dev{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-top:1px solid #dbe4f2;margin-top:8px}
+.se-pair{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.se-qr{width:210px;height:210px;flex:none;border-radius:10px;overflow:hidden;background:#fff;border:1px solid #dbe4f2}
+.se-qr svg{width:100%;height:100%;display:block}
+.se-pairtxt{flex:1;min-width:200px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.se-lbl{color:#31406a}
+.se-code{font-size:34px;font-weight:800;letter-spacing:.12em;font-variant-numeric:tabular-nums;color:#4f46e5}
+.se-url{font-family:ui-monospace,Consolas,monospace;font-size:12px;background:#fff;border:1px dashed #bccade;border-radius:8px;padding:6px 8px;word-break:break-all}
+.se-toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:9999;display:flex;align-items:center;gap:10px;background:#1d2b4f;color:#fff;padding:10px 12px 10px 16px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.35);font-size:13px}
+.se-x{background:none;border:0;color:#bccade;font-size:20px;line-height:1;cursor:pointer}
+.dark .se-panel{color:#eaf0f9}
+.dark .se-intro p,.dark .se-lbl,.dark .se-chk{color:#bccade}
+.dark .se-card{background:#16244a;border-color:#31406a}
+.dark .se-warn{background:#422006;border-color:#a16207;color:#fde68a}
+.dark .se-sm{color:#8796b6}
+.dark .se-btn-ghost{color:#dbe4f2;border-color:#46557c}
+.dark .se-dev{border-top-color:#31406a}
+.dark .se-url{background:#0e1b36;border-color:#46557c}
+.dark .se-code{color:#a5b4fc}
+.dark .se-ok{color:#6ee7b7}.dark .se-err{color:#fca5a5}
+
+/* tasarim.css sekme çubuğunu gizliyor; yalnızca "Kayıt Klasörü" + "Tablet Eşleme" gösterilir */
+#settings-modal-card>.flex.items-center.gap-1.se-bar{display:flex!important;padding:0 26px!important;margin-top:4px}
+#settings-modal-card>.se-bar button:not(:first-child):not(.se-tab){display:none!important}
+#settings-modal-card>.se-panel{padding:14px 26px 24px!important}
